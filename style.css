@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #f8f9fa;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+#ign {
+    height: 90px; 
+    width: 220px;
+    display: block;
+    margin: 0 auto;
+}
+
+.input-box {
+    margin:auto 20px 6px;
+}
+
+input {
+    height: 36px;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    background-color: #fafafa;
+    width:90%;
+    font-size:12px;
+    margin: 0;
+    padding: 9px 0 7px 8px;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+}
+
+.bnt {
+    width: 90%;
+    padding: 10px;
+    background-color: #3897F1;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    height: 28px;
+    cursor: pointer;
+    margin:auto 20px 6px;
+    position: relative;  
+    top: 10px;
+}
+
+.lo {
+    height: 15px; 
+    width: 36px; 
+    position: relative;  
+    top: -4px;
+}
+
+.for {
+    text-align: center;
+    font-size:14px;
+    color: #005995;
+    position: relative;  
+    top: 10px;
+}
+
+.text {
+    text-align: center;
+    margin: 15px;
+    color: #262626;
+    font-size: 14px;
+    position: relative;  
+    top: 70px;
+}
+
+.text a, .text a:visited, .text a:hover, .text a:active {
+    color: #3897f0;
+    margin-left: 3px;
+    text-decoration: none;
+}
+
+.get {
+    text-align: center;
+    position: relative;  
+    top: 150px;
+}
+
+#store {
+    width: 150px; 
+    height: 50px;
+    position: relative;
+    left: 185px; /* Adjust this value to move the image left or right */
+    top: 220px; /* Adjust this value to move the image up or down */
+    /* or use 'right' to move the image from the right side */
+    /* or use 'bottom' to move the image from the bottom */
+}
+#sto {width: 150px; 
+      height: 50px;
+      position: relative;
+    left: 25px; /* Adjust this value to move the image left or right */
+    top: 171px; /* Adjust this value to move the image up or down */
+    /* or use 'right' to move the image from the right side */
+    /* or use 'bottom' to move the image from the bottom */}
+    
+    .oi{text-align: center;
+    position: relative;
+    color: #FE3C3C;}
